@@ -1,0 +1,5 @@
+/coverage
+/build
+/public/build
+pnpm-lock.yaml
+lib
