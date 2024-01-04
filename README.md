@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+A demo application to illustrate how [Spring Boot](https://spring.io/) works with [Remix Framework](https://remix.run/) and [React Components](https://reactjs.org/).
+
 - [Remix Docs](https://remix.run/docs)
 
 ## Development
@@ -9,17 +11,24 @@
 From your terminal:
 
 ```sh
-pnpm run dev
+pnpm dev
 ```
 
 This starts your app in development mode, rebuilding assets on file changes.
+
+Includes the following configuration:
+
+- Remix
+- Vite (Remix unstable support)
+- Prettier
+- ESlint
 
 ## Deployment
 
 First, build your app for production:
 
 ```sh
-pnpm run build
+pnpm build
 ```
 
 Then run the app in production mode:

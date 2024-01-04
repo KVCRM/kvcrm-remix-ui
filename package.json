@@ -7,7 +7,7 @@
     "build": "remix vite:build",
     "dev": "node ./server.mjs",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
-    "start": "cross-env NODE_ENV=production node ./server.mjs",
+    "start": "node ./server.mjs",
     "test": "cross-env TZ=UTC vitest",
     "test:e2e:dev": "start-server-and-test dev http://localhost:3000 \"npx cypress open\"",
     "prettier": "prettier --write .",
@@ -61,12 +61,12 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "typescript": "^5.3.3",
-    "vite": "^5.0.0",
     "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^1.1.0",
     "jsdom": "^23.0.1",
     "npm-run-all": "^4.1.5",
-    "start-server-and-test": "^2.0.3"
+    "start-server-and-test": "^2.0.3",
+    "vite": "^5.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
