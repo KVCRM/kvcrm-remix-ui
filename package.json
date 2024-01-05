@@ -9,7 +9,6 @@
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "node ./server.mjs",
     "test": "cross-env TZ=UTC vitest",
-    "test:e2e:dev": "start-server-and-test dev http://localhost:3000 \"npx cypress open\"",
     "prettier": "prettier --write .",
     "prepare": "husky install",
     "typecheck": "tsc"
