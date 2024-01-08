@@ -31,7 +31,9 @@
     "isbot": "^3.6.8",
     "pino": "^8.15.3",
     "pino-http": "^8.5.0",
+    "ra-data-json-server": "^4.16.5",
     "react": "^18.2.0",
+    "react-admin": "^4.16.5",
     "react-dom": "^18.2.0"
   },
   "prettier": "@iqkv/prettier-config",

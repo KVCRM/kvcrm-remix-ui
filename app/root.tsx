@@ -4,7 +4,8 @@ export default function App() {
   return (
     <html lang="en">
       <head>
-          <title>KVCRM</title>
+        <title>KVCRM</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"   />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
